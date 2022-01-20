@@ -1,0 +1,448 @@
+html,body
+{
+    margin:0;
+    padding:0;
+    font-family:'Times New Roman', Times, serif; 
+    background-color:white;
+    
+}
+
+header{
+}
+.jumbotron
+{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(nebula1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding:250px 25px;
+    color:#a59393;
+}
+.what-are-they
+{
+    border:1px solid #c7bbbb;
+    margin-bottom:10%;
+    padding:15px;
+}
+.what-are-they p
+{
+font-size:20px;
+color:#000000cf;
+
+font-family:'Times New Roman', Times, serif;
+}
+.rounded
+{
+    border-radius:100%;
+    border:36px solid black;
+    transition:0.7s ease-out;
+    
+}
+.rounded:hover
+{
+    border:2px;
+    border-style: double;
+   
+}
+.about-them
+{
+    background-color:rgb(178, 178, 240);
+    padding:5px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    color:black;
+    box-shadow: 7px 7px 7px rgb(58, 58, 58);
+}
+.about-them:hover
+{
+    background-color: #a59393;
+    transition:0.3s ease-in;
+}
+.star-forming
+{
+    margin-top:9%;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.star-forming p
+{
+    margin-top:3%;
+    font-size:20px;
+    position: relative;
+    color:black;
+    animation:color 4s linear;
+}
+@keyframes color
+{
+from{color:white;}
+to{color:black;}
+}
+.space-shuttle
+{
+    
+    position: relative;
+animation: mymove 3s linear 1s infinite;
+}
+@keyframes mymove {
+
+    from {left:-15%;}
+    to {left: 15%;}
+}
+.star-forming-nebula img
+{
+    margin-top:7%;
+    margin-right:-5%;  
+    border:7px double black;
+    height:400px;
+    width:330px;
+}
+.star-forming-nebula
+{
+    margin-top:8%;
+}
+.comet
+{
+    position:relative;
+    animation:collide 2s linear 1s infinite ;
+}
+@keyframes collide
+{
+    from{left:-10%;}
+    to{left:40%;}
+}
+.comet1
+{
+    position:relative;
+    animation:collide1 1.2s linear 1s infinite ;
+}
+@keyframes collide1
+{
+    0%       { transform: translate(0, 0)}
+    100%     { transform: translate(-110px, 110px) }
+
+}
+
+.comet2
+{
+    position:relative;
+    animation:collide2 1.5s linear 1s infinite;
+}
+@keyframes collide2
+{
+    0%       { transform: translatex(0) translatey(0) }
+    100%     { transform: translatex(110px) translatey(110px) }
+}
+    
+.comet3
+{
+    position:relative;
+    animation:collide1 .9s linear 1s infinite ;
+}
+@keyframes collide1
+{
+    0%       { transform: translate(0, 0)}
+    100%     { transform: translate(-110px, 110px) }
+
+}
+
+.star
+{
+    margin-top:-7%;
+    opacity:-16;
+    position: relative;
+    animation:star 2s linear 0.5s infinite alternate-reverse;
+}
+@keyframes star
+{
+from{opacity:70px;}
+to{opacity:100;}
+}
+.star1
+{
+    margin-top:40%;
+    margin-left:10%;
+    opacity:0;
+    position: relative;
+    animation:star1 1.5s linear 0.7s infinite alternate-reverse;
+}
+@keyframes star1
+{
+from{opacity:0;}
+to{opacity:100;}
+}
+.star2
+{
+    margin-top:-15%;
+    margin-left:0%;
+    opacity:0;
+    position: relative;
+    animation:star2 2.3s linear 1.2s infinite alternate-reverse;
+}
+@keyframes star2
+{
+from{opacity:70px;}
+to{opacity:100;}
+}
+.star3
+{
+    margin-top:-40%;
+    margin-left:-68%;
+    opacity:0;
+    position: relative;
+    animation:star3 0.5s linear 0.5s infinite alternate-reverse;
+}
+@keyframes star3
+{
+from{opacity:0;}
+to{opacity:100;}
+}
+.star4
+{
+    margin-top:0%;
+    margin-left:-15%;
+    opacity:0;
+    position: relative;
+    animation:star3 2.5s linear 1.3s infinite alternate-reverse;
+}
+@keyframes star4
+{
+from{opacity:0;}
+to{opacity:100;}
+}
+.star5
+{
+    margin-top:10%;
+    margin-left:20%;
+    opacity:0;
+    position: relative;
+    animation:star5 2.5s linear 1.3s infinite alternate-reverse;
+}
+@keyframes star5
+{
+from{opacity:0;}
+to{opacity:100;}
+}
+.stars h3
+{
+    color:black;
+}
+.cycle-explain h3
+{
+    color:black;
+}
+.cycle-explain 
+{
+    font-size:20px;
+}
+.stars p
+{
+    font-size:17px;
+
+}
+/* .types
+{
+    margin-top:5%;
+    color:black;
+}
+#p2
+{
+    background-color:rgb(178, 178, 240);
+    padding:5px;
+    margin:7px;
+    margin-bottom: 10px;
+    color:black;
+    box-shadow: 7px 7px 7px rgb(58, 58, 58);
+
+}
+#p2 p
+{
+    color:black;
+    font-size:15px;
+}
+#p2 img
+{
+    
+   border-radius:50px; 
+    
+    border:2px double black;
+} */
+
+
+.carousel-inner-back {
+    background-color: #e0f4ff;
+}
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #233288;
+}
+
+.carousel-indicators li {
+    border-color: #233288;
+}
+
+    .carousel-indicators li.active {
+        background-color: #233288;
+    }
+
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+.item h3
+{
+    margin-bottom:-20px;
+}
+/* .social
+    {
+        background-color:black;
+        color:white;
+    }
+        .social h2 {
+            color: #e09292;
+        } */
+
+.social-networks {
+    width:16.66%;
+    display: flex;
+    
+}
+.sndt {
+    height: 40px;
+    padding: 7px;
+    filter: grayscale(100%);
+}
+.sndt:hover {
+    filter: grayscale(0%);
+}
+.examples
+{
+    margin-top: 15%;
+}
+.examples img
+{
+height:136px;
+width:auto;
+border-radius: 100%;
+border-radius:5px double black;
+box-shadow: 1px 65px 41px -21px rgb(58,58,58);
+}
+
+.examples h3
+{
+    margin-top: 12%;
+}
+.rotation
+{
+    animation:circle 2.3s linear infinite;
+    height:100px;
+    margin-top:10%;
+}
+@keyframes circle {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.problem h2
+{
+    font-size:26px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.problem h3
+{
+    font-size:20px; 
+}
+
+.hydrogen-cloud
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("homeimage.jpg");
+    background-size:cover;
+    margin-top:3%;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    
+
+}
+.hydrogen-cloud h1
+{
+    padding:5%;
+   
+
+}
+.hydrogen-cloud h5
+{
+    padding-top:6%;
+    font-size:26px;
+}
+.hydrogen-cloud p
+{
+    margin-top:2%;
+    font-size:18px;
+    padding-bottom: 12%;
+    
+}
+/* hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #131111;
+} */
+
+h2 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+ 
+ h2 span { 
+     background:#fff; 
+     padding:0 10px; 
+ }
+ .social-networks {
+    width:16.66%;
+    display: flex;
+    margin-left:16%;
+    
+}
+.sndt {
+    height: 43px;
+    padding: 7px;
+    filter: drop-shadow(8px 8px 10px gray);
+  
+}
+.sndt:hover {
+    filter:grayscale(100%);
+}
+.sndt1
+{
+    text-shadow:8px 8px 10px gray;
+}
+.rotation1
+{
+    animation:circle 2.3s linear infinite;
+    height:48px;
+    margin-top:0%;
+}
+@keyframes circle {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+.last-line
+{
+    margin-top:3%;
+    color:black;
+}
